@@ -15,4 +15,11 @@ Areas to improve through the course is to better my understandment in html and C
 
 
 ## Sources
+Logo editor:
 Created with www.kittl.com
+
+for inserting images:
+https://www.w3schools.com/html/html_images.asp
+
+Images:
+https://picsum.photos/images#2
