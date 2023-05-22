@@ -1,48 +1,93 @@
-<html lang="en-us"></html>
+<html lang="en-us">
+
+</html>
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.0/css/bulma.min.css">
     <link rel="stylesheet" href="./assets/css/style.css">
     <title>Felix's Portfolio</title>
-    </head>
+</head>
 
-    
-        <body>
-            <div class="Container">
-            <div class="navbar">
-                <h1>Portfolio</h1>
-                <nav>
-                    <ul>
-                        <li><a href="#AboutMe">About Me</a> </li>
-                        <li><a href="#MyWork">My Work</a> </li>
-                        <li><a href="#Experience">Experience</a> </li>
-                        <li><a href="#ContactMe">Contact Me</a></li>
-                    </ul>
-                </nav>
+<!-- nav bar  -->
+<nav class="navbar is-transparent">
+    <div class="navbar-brand">
+        <!-- this gives the navbar items -->
+        <a class="navbar-item" href="">
+            <!-- my img goes here  -->
+            <img src="./assets/css/Trusted society.jpg" alt="trusted society">
+        </a>
+        <!-- create the hamburger to conatin a drop down when the display is smaller in px for iphones -->
+        <div class="navbar-burger" data-target="navbarExampleTransparentExample">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </div>
+
+    <!-- create a navbar with the contact me, projects, and about me -->
+    <div id="navbarExampleTransparentExample" class="navbar-menu">
+        <div class="navbar-start">
+            <a class="navbar-item" href="https://bulma.io/">
+                Home
+            </a>
+            <div class="navbar-item has-dropdown is-hoverable">
+                <a class="navbar-link" href="https://bulma.io/documentation/overview/start/">
+                    Docs
+                </a>
+                <div class="navbar-dropdown is-boxed">
+                    <a class="navbar-item" href="https://bulma.io/documentation/overview/start/">
+                        Overview
+                    </a>
+                    <a class="navbar-item" href="https://bulma.io/documentation/overview/modifiers/">
+                        Modifiers
+                    </a>
+                    <a class="navbar-item" href="https://bulma.io/documentation/columns/basics/">
+                        Columns
+                    </a>
+                    <a class="navbar-item" href="https://bulma.io/documentation/layout/container/">
+                        Layout
+                    </a>
+                    <a class="navbar-item" href="https://bulma.io/documentation/form/general/">
+                        Form
+                    </a>
+                    <hr class="navbar-divider">
+                    <a class="navbar-item" href="https://bulma.io/documentation/elements/box/">
+                        Elements
+                    </a>
+                    <a class="navbar-item is-active" href="https://bulma.io/documentation/components/breadcrumb/">
+                        Components
+                    </a>
+                </div>
             </div>
         </div>
-       
-        
-        <main class="link">
-            <section class="link">
-              <h3>My Work</h3>
-              <a href="https://siavashnamiranian.github.io/Ideal-Event/">project</a>      
-            </section>          
-        </main>
 
-        <aside class="left-side">
-            <p>
-                Contact me
-                Oswaldo_felix@xxx.com
-                (619)XXX-XXXX
-            </p>
-            </aside>
+        <div class="navbar-end">
+            <div class="navbar-item">
+                <div class="field is-grouped">
+</nav>
 
-        </aside>
+<body>
+    <main class="link">
+        <section class="link">
+            <h3>My Work</h3>
+            <a href="https://siavashnamiranian.github.io/Ideal-Event/">project</a>
+        </section>
+    </main>
 
-             </body>
+    <aside class="left-side">
+        <p>
+            Contact me
+            Oswaldo_felix@xxx.com
+            (619)XXX-XXXX
+        </p>
+    </aside>
 
-             <footer class="bottom">
-                <h1>Thank You For Visiting</h1>
-             </footer>
+</body>
+
+
+<!-- footer should stay at the bottom -->
+<footer class="bottom">
+    <h1>Thank You For Visiting</h1>
+</footer>
